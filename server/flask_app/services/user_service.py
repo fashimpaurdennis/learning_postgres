@@ -4,7 +4,7 @@ from flask_app.config.postgresconnection import connectToPostgres
 
 class UserService:
 
-    def __init__(self, user:User):
+    def __init__(self, user):
         self.user = user
 
     @classmethod
